@@ -745,6 +745,14 @@ div h3 p ul li a {
     justify-content: center;
     /* gap: 72px; */
   }
+  .fourth-section-container {
+    padding: 0;
+    justify-content: center;
+  }
+  .fourth-section-list-item {
+    display: flex;
+    flex-direction: column;
+  }
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -755,13 +763,31 @@ div h3 p ul li a {
     flex-direction: column;
     gap: 72px;
   }
-  .footer .footer-container {
-    margin-left: auto;
-    margin-right: auto;
+  .footer-container {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 96px 16px 96px 32px;
+    padding: 0;
   }
   .footer-logo {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-right: 0;
+  }
+  .footer-p {
+    line-height: 24px;
+    font-weight: 400;
+    justify-content: center;
+  }
+  .logo-a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .footer {
+    /* align-items: center; */
   }
 }
