@@ -717,11 +717,6 @@ div h3 p ul li a {
     height: 88px;
     margin-left: 24px;
   }
-  /* .subscribe-div {
-    width: 453px;
-    height: 80px;
-    margin-top: 72px;
-  } */
 }
 @media (max-width: 767px) {
   .container {
@@ -747,7 +742,7 @@ div h3 p ul li a {
   }
   .section-title {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -756,11 +751,6 @@ div h3 p ul li a {
     font-weight: 500;
     line-height: 24px;
   }
-  .third-section-list {
-    display: flex;
-    flex-direction: column;
-    margin: 96px 16px 96px 16px;
-  }
   .second-section-list-item {
     width: 288px;
   }
@@ -768,11 +758,46 @@ div h3 p ul li a {
     display: flex;
     justify-content: center;
   }
+  .third-section-list {
+    display: flex;
+    flex-direction: column;
+    margin: 96px 16px 96px 16px;
+  }
+  /* .team-card {
+    gap: 8px;
+  } */
+  .team-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .team-card-text {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
   .fourth-section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     text-align: center;
+  }
+  .app-category-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .section-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
   .fourth-sect-div {
     display: flex;
@@ -783,25 +808,29 @@ div h3 p ul li a {
     padding: 0;
     justify-content: center;
   }
+  .fourth-section-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .fourth-section-list-item {
     display: flex;
     flex-direction: column;
   }
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-  }
   .first-form {
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    /* gap: 72px; */
   }
   .footer-container {
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin: 96px 16px 96px 32px;
+    margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
   }
   .footer-logo {
     display: flex;
@@ -814,14 +843,26 @@ div h3 p ul li a {
     font-weight: 400;
     justify-content: center;
   }
+  .footer-p-sm,
+  .footer-div-p {
+    text-align: center;
+  }
+  .form-input {
+    width: 288px;
+    height: 40px;
+    padding: 0;
+  }
+  .form-button {
+    padding: 0;
+    width: 165px;
+    height: 40px;
+    gap: 16px;
+    margin: 16px 61px 96px 61px;
+  }
   .logo-a {
     display: flex;
     flex-direction: column;
     margin-right: 0;
     justify-content: center;
-    /* align-items: center; */
-  }
-  .footer {
-    /* align-items: center; */
   }
 }
