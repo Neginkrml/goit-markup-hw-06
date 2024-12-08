@@ -468,7 +468,7 @@ div h3 p ul li a {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: none;
+  display: block;
 }
 .modal-container {
   position: absolute;
@@ -612,6 +612,7 @@ div h3 p ul li a {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  margin-left: 19px;
 }
 .six-button {
   display: block;
@@ -870,6 +871,8 @@ div h3 p ul li a {
   }
   .modal-container {
     width: 288px;
+    justify-content: center;
+    padding: 72px 16px 16px 16px;
   }
   .modal-p {
     font-weight: 500;
@@ -883,8 +886,12 @@ div h3 p ul li a {
     flex-direction: column;
     width: 256px;
     border-radius: 4px;
-    gap: 8px;
-    margin-right: 16px;
+  }
+  .modal-form-input {
+    width: 256px;
+  }
+  .pri-div {
+    width: 231px;
   }
   .modal-label {
     font-family: "Roboto", sans-serif;
@@ -894,19 +901,21 @@ div h3 p ul li a {
     letter-spacing: 0.04em;
   }
   .five-div {
-    display: block;
+    display: inline-block;
   }
-  /* .five-label {
-    display: flex;
-    flex-direction: row;
-  } */
   .six-button {
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     /* margin: 24px 59px 24px 60px; */
+  }
+  .mobile {
+    width: 320px;
   }
   .mobile-frst-ul {
     display: flex;
@@ -936,10 +945,34 @@ div h3 p ul li a {
     letter-spacing: 0.02em;
     color: #434455;
   }
+  .mobile-nav,
+  .mobile-contact {
+    color: #2e2f42;
+  }
+  /* .mobile-nav:first-child {
+    color: #404bbf;
+  }
+  .mobile-contact:first-child {
+    color: #4d5ae5;
+  } */
   .mobile-social-ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
     margin: 0px 24px 40px 16px;
+  }
+  .mobile-social-li {
+    width: 40px;
+    height: 40px;
+  }
+  .mobile-social-a {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
