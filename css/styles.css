@@ -985,5 +985,6 @@ div h3 p ul li a {
     top: 20px;
     right: 20px;
     z-index: 99;
+    margin-left: auto;
   }
 }
